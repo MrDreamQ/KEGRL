@@ -1,0 +1,12 @@
+EPOCH: 200
+BATCH_SIZE: 1   # 2 for bert
+ACCUMULATION_STEPS: 2   # 1 for bert
+LR: 3e-5 # 5e-5 for bert
+
+MODEL:
+    PLM_NAME: 'roberta-large' # 'bert-base-cased' for bert
+
+DATA:
+    DATASET: 'DWIE'
+    NUM_CLASSES: 66
+    MAX_LENGTH: 2500

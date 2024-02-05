@@ -1,0 +1,19 @@
+EPOCH: 50 # 30 for bert
+BATCH_SIZE: 2 # 4 for bert
+ACCUMULATION_STEPS: 2  # 2 for bert
+GRAPH_LR: 3e-5 # 5e-5 for bert
+LR: 3e-5 # 5e-5 for bert
+RA_LAYERS: 1
+HIDDEN_DIM: 1024 # 768 for bert
+ADA_LOSS_LAMB: 0.
+
+MODEL:
+    PLM_NAME: 'roberta-large' # 'bert-base-cased' for bert
+
+DATA:
+    DATASET: 'Re-DocRED'
+    NUM_CLASSES: 97
+    MAX_LENGTH: 1024
+
+SGRAPH:
+    LAYERS_NUM: 2

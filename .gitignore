@@ -1,0 +1,10 @@
+__pycache__
+.vscode
+logs
+ref
+checkpoint
+outputs
+prepro_*
+*json
+*npy
+lmdb*
