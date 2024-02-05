@@ -5,6 +5,5 @@ ref
 checkpoint
 outputs
 prepro_*
-*json
 *npy
 lmdb*
