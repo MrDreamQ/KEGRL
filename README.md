@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Knowledge-Embedded Graph Representation Learning for Document-Level Relation Extraction
 
 ## Introduction of KEGRL📑
@@ -179,7 +178,3 @@ This project is licensed under the GPL License - see the [LICENSE](LICENSE) file
 ```
 
 ```
-=======
-# KEGRL
-Knowledge-Embedded Graph Representation Learning for Document-Level Relation Extraction
->>>>>>> main
